@@ -1,0 +1,52 @@
+p.fixed {
+    position: static;
+    left: 100px;
+    top: 0px;
+    background: red;
+    color: blue;
+    padding: 5px;
+    border: medium solid black;
+    z-index: 10;
+}
+div.fixed {                            /*
+    position: relative;
+    left: 100px;
+    top: 20px;                         */
+    background: red;
+    color: blue;
+    padding: 5px;
+    border: medium solid black;
+    cursor: move;
+}
+
+.red {
+    position: relative;
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    position: relative;
+    display: inline-block;
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.green {
+    position: relative;
+    display: inline-block;
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+
+div.hiddenStyle {
+    /*
+    visibility: hidden; /* Invisible, but taking up space */
+
+
+    display:none; /* Invisible, collapsed */
+}

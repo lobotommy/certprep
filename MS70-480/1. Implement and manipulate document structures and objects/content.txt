@@ -1,0 +1,36 @@
+1. Create the document structure
+1.1     Structure the UI by using semantic markup, including for search engines and screen readers (Section, Article, Nav, Header, Footer, and Aside); create a layout container in HTML
+1.2     Write code that interacts with UI controls: Programmatically add and modify HTML elements; implement media controls; implement HTML5 canvas and SVG graphics
+1.3     Apply styling to HTML elements programmatically
+1.4     Change the location of an element; apply a transform; show and hide elements
+1.5     Implement HTML5 APIs
+1.6     Implement storage APIs, AppCache API, and Geolocation API
+1.7     Establish the scope of objects and variables
+1.8     Create and implement objects and methods
+
+HTML5:
+http://www.microsoft.com/web/post/get-started-using-html5?sf1284466=1
+    * <!DOCTYPE html>, tell the browser what version of the markup language to use
+    * some new tags:
+        * section: can be used to group content together on a webpage
+        * nav: represents the section on the page that contains navigation links
+        * article: defines 'self-contained' content such as a news article or blog, that could exist on its own.
+        * header: defines an introduction to the group (document or section)
+        * hgroup: defines the heading of a section, groups headers <h1> - <h6>
+        * footer: defines the footer section of a page
+        * aside: defines some content aside the content it's placed in
+
+
+Semantic markup / page layout
+http://blogs.msdn.com/b/jennifer/archive/2011/08/01/html5-part-1-semantic-markup-and-page-layout.aspx
+
+
+
+Further study:
+
+* modifying HTML elements:
+    http://www.w3schools.com/jsref/dom_obj_all.asp
+
+* placing stuff through css3
+
+* Prototype-objects

@@ -1,0 +1,8 @@
+Validate user input by using HTML5 elements
+Choose the appropriate controls based on requirements; implement HTML input types and content attributes (for example, required) to collect user input
+Validate user input by using JavaScript
+Evaluate a regular expression to validate the input format; validate that you are getting the right kind of data type by using built-in functions; prevent code injection
+Consume data
+Consume JSON and XML data; retrieve data by using web services; load data or get data from other sources by using XMLHTTPRequest
+Serialize, deserialize, and transmit data
+Binary data; text data (JSON, XML); implement the jQuery serialize method; Form.Submit; parse data; send data by using XMLHTTPRequest; sanitize input by using URI/form encoding

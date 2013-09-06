@@ -1,0 +1,35 @@
+div {
+    position: relative;
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+body {
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    -o-perspective: 600px;
+    perspective: 600px;
+}
+
+.transformed {
+    transform: rotate(20deg) scale(0.5,0.5);
+    -webkit-transform: rotate(20deg) scale(0.5,0.5);
+}
+
+.translated {
+    transform: translate(-15px, 100px);
+    -webkit-transform: translate(-15px, 100px);
+}
+
+#target {
+    -webkit-transform: rotateY( 45deg );
+       -moz-transform: rotateY( 45deg );
+         -o-transform: rotateY( 45deg );
+            transform: rotateY( 45deg );
+
+}
+
+
