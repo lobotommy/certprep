@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e638bbd-7d72-424b-9c70-f01ab3e82707" name="Default" comment="" />
+    <list default="true" id="4e638bbd-7d72-424b-9c70-f01ab3e82707" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Training.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378414571761" ignored="false" />
+    <file path="/Dummy.txt" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378645892046" ignored="false" />
     <file path="/links.txt" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1377630022100" ignored="false" />
     <file path="/content.txt" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378241541182" ignored="false" />
-    <file path="/index.html" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378414970115" ignored="false" />
+    <file path="/index.html" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378584884808" ignored="false" />
     <file path="/modify.js" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1377707475591" ignored="false" />
     <file path="/stuff.css" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378237531123" ignored="false" />
     <file path="/styles.css" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1377801972672" ignored="false" />
@@ -17,6 +22,7 @@
     <file path="/events.js" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378414020689" ignored="false" />
     <file path="/fragment.js2" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378411251222" ignored="false" />
     <file path="/style.css" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378414894940" ignored="false" />
+    <file path="/bubbles.js" changelist="4e638bbd-7d72-424b-9c70-f01ab3e82707" time="1378584940447" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +51,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="164" selection-start="34" selection-end="61" vertical-scroll-proportion="0.0794702">
+            <state line="4" column="164" selection-start="34" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/events.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="9" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="48" selection-start="177" selection-end="177" vertical-scroll-proportion="0.26490065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubbles.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="21" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubbles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/links.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +122,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -81,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.4 Apply Styling to HTML Elements Programmatically/1.4.2 Alternative hide/hide.js" />
-        <option value="$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.4 Apply Styling to HTML Elements Programmatically/1.4.3 Apply a transform/index.html" />
         <option value="$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.4 Apply Styling to HTML Elements Programmatically/1.4.3 Apply a transform/transform.css" />
         <option value="$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/stuff.appcache" />
         <option value="$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/index.html" />
@@ -97,13 +146,15 @@
         <option value="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/events.js" />
         <option value="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/index.html" />
         <option value="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/style.css" />
+        <option value="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/index.html" />
+        <option value="$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2540" />
-    <option name="height" value="1288" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -112,7 +163,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -146,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -170,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -184,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -198,7 +249,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MS70-480" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2. Implement program flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.1 Raise and handle an event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.1.2 Declare and handle bubbled events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,105 +293,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
+              <option name="myItemId" value="MS70-480" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.7 Create and implement objects and methods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.4 Apply Styling to HTML Elements Programmatically" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.4 Apply Styling to HTML Elements Programmatically" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.4.1 Change the location of an element" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.2 Write code that interacts with the UI controls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1. Implement and manipulate document structures and objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.1 Create the document structure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,16 +306,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -364,7 +344,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -451,26 +431,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2540" height="1288" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962328" sideWeight="0.49980134" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962328" sideWeight="0.49980134" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24990067" sideWeight="0.33476028" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24990067" sideWeight="0.6703767" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6697613" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39982876" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24990067" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962328" sideWeight="0.50019866" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33023873" sideWeight="0.50019866" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962328" sideWeight="0.49980134" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39982876" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -515,7 +495,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Played with events a little" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added bubble-event files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -539,6 +519,7 @@
     <MESSAGE value="moving down the list" />
     <MESSAGE value="Leaving part 1 for now" />
     <MESSAGE value="Played with events a little" />
+    <MESSAGE value="Added bubble-event files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,37 +534,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/screenshot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.6 Establish the scope of objects and variables/1.6.1 Global variables in javascript/stuff.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.6 Establish the scope of objects and variables/1.6.1 Global variables in javascript/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/stuff.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.7 Create and implement objects and methods/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16415869">
-          <folding />
-        </state>
+        <state line="8" column="35" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16415869" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.7 Create and implement objects and methods/stuff.js">
@@ -593,60 +551,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="10" selection-end="66" vertical-scroll-proportion="0.01986755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.7 Create and implement objects and methods/stuff.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="33" selection-end="33" vertical-scroll-proportion="0.01986755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="250" selection-end="328" vertical-scroll-proportion="0.1986755">
-          <folding />
-        </state>
+        <state line="1" column="26" selection-start="33" selection-end="33" vertical-scroll-proportion="0.01986755" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/content.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.69536424">
-          <folding />
-        </state>
+        <state line="35" column="19" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.69536424" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.6 Establish the scope of objects and variables/1.6.1 Global variables in javascript/stuff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4#170#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="379" selection-end="379" vertical-scroll-proportion="0.24623802">
-          <folding />
-        </state>
+        <state line="12" column="43" selection-start="379" selection-end="379" vertical-scroll-proportion="0.24623802" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.5 Implement storage APIs, AppCache API, and Geolocation API/stuff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.34437087">
-          <folding />
-        </state>
+        <state line="37" column="40" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.34437087" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Implement and manipulate document structures and objects/1.4 Apply Styling to HTML Elements Programmatically/1.4.1 Change the location of an element/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="36" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="164" selection-start="34" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -658,9 +597,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/style.css">
+    <entry file="file://$PROJECT_DIR$/links.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="164" selection-start="34" selection-end="61" vertical-scroll-proportion="0.0794702">
+        <state line="5" column="30" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.1 HTML DOM Events/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Implement program flow/2.1 Raise and handle an event/2.1.2 Declare and handle bubbled events/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="177" selection-end="177" vertical-scroll-proportion="0.26490065">
           <folding />
         </state>
       </provider>
