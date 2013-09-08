@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <section>
+        <h3>W3C model</h3>
+        element.addEventListener('event', function, bool); // the bool determines if the handler should kick in when the event is captured (true) or bubbles (false).<br/>
+        In the lastest version, not yet in browsers, there is a way to find all registered eventhandlers for an event through
+        <br/>
+
+    </section>
+    <section>
+        <h3>Microsoft-model</h3>
+        element.attachEvent('event', function);
+        <br/>
+        Has two drawbacks, elements always bubble and the event handling function is referenced, not copied. This leads to the fact that 'this' is not supported.
+    </section>
+    <script src="anonoymousfunction.js" type="text/javascript"></script>
+</body>
+</html>
