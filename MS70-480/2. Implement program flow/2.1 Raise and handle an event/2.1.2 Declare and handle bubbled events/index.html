@@ -5,7 +5,19 @@
     <title></title>
 </head>
 <body>
+<p>
+    Click the text, watch the color change on either child, parent or both depending on the bubbling
+</p>
+<p>
+    <div id="parentElement" class="parent">
+        Parent
+        <div id="childElement" class="child">Child</div>
+    </div>
+</p>
+<p>
+    <label>Stop click-event propagation?</label><input type="checkbox" value="Stop propagation?" id="stopPropagation">
+</p>
 
-<script src="bubbles.js" type="text/javascript"></script>
+    <script src="bubbles.js" type="text/javascript"></script>
 </body>
 </html>

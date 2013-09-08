@@ -1,0 +1,17 @@
+.parent {
+    display: inline;
+    padding: 20px;
+    background: yellow;
+
+}
+
+.child {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    background: lightblue;
+}
+
+.gotIt {
+    background: red;
+}
