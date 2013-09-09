@@ -2,6 +2,11 @@ window.onload = init;
 
 function init() {
 
+    function TommyError(message) {
+        this.type = "TommyError";
+        this.message = message || "No message given";
+    }
+
     var scapegoat = document.getElementById('scapegoat');
     scapegoat.onclick = scapegoatClicked;
 
@@ -39,9 +44,14 @@ function init() {
     function scapegoat2Clicked() {
         try {
 
-            throw { message: "This is a custom error message which happened in "
-                + this.id + " of type " + this.type
-            };
+     //       throw { message: "This is a custom error message which happened in "
+     //           + this.id + " of type " + this.type
+     //       };
+            throw new TommyError("This is a custom error message which happened in "
+                + this.id + " of type " + this.type);
+        }
+        catch(error if error instanceof TommyError) {
+            alert("TommyError: " + error.message);
         }
         catch(error) {
             document.writeln("Error occurred: " + error.message +"<br/>");
