@@ -66,6 +66,18 @@ var onload = function() {
     var person = new Person("Tommy");
     alert(person.firstName);
 
+
+    function Item(val) {
+        Object.defineProperty(this, "number", {
+            writable: false,
+            value: 9
+        });
+    }
+
+
+    var user = new Item(5);
+    //user.number = 4;
+    document.writeln(user.number + "<br/>");
 };
 
 window.onload = onload();

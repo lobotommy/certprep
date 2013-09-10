@@ -6,6 +6,8 @@ function init() {
         this.type = "TommyError";
         this.message = message || "No message given";
     }
+    TommyError.prototype = new Error();
+    TommyError.prototype.constructor = TommyError;
 
     var scapegoat = document.getElementById('scapegoat');
     scapegoat.onclick = scapegoatClicked;

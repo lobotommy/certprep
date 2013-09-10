@@ -34,3 +34,5 @@ Further study:
 * placing stuff through css3
 
 * Prototype-objects
+    http://blog.pluralsight.com/2013/03/08/understanding-javascript-objects-2/
+    http://blog.pluralsight.com/2013/03/19/understanding-javascript-prototypes/
