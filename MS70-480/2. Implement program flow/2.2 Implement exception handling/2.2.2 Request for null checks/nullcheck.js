@@ -5,7 +5,7 @@ function init() {
     if(hello === null) {
         hello = "null?";
     }
-    else if(!hello) {
+    else if(!hello)  {
         hello = "hello!";
     }
 
