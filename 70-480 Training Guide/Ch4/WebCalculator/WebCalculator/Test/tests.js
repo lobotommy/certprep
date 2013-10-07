@@ -74,3 +74,22 @@ test("Clear entry on minus", function () {
     var expected = '0';
     equal(txtInput.value, expected, 'Expected value: ' + expected + ' Actual value: ' + txtInput.value);
 });
+
+
+test("Add result to list on plus", function () {
+    expect(1);
+    txtInput.value = '10';
+    QUnit.triggerEvent(btnPlus, "click");
+    var expected = '+10';
+
+    equal(results.lastChild.innerHTML, expected, 'Expected value: ' + expected + ' Actual value: ' + results.lastChild.innerHTML);
+});
+
+test("Add result to list on minus", function () {
+    expect(1);
+    txtInput.value = '10';
+    QUnit.triggerEvent(btnMinus, "click");
+    var expected = '-10';
+
+    equal(results.lastChild.innerHTML, expected, 'Expected value: ' + expected + ' Actual value: ' + results.lastChild.innerHTML);
+});

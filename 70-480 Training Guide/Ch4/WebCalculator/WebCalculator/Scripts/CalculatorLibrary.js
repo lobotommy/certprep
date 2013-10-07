@@ -1,5 +1,6 @@
 ﻿var txtInput;
 var txtResult;
+var results;
 
 function initialize() {
     for (var i = 0; i < 10; i++) {
@@ -8,6 +9,7 @@ function initialize() {
     }
     txtInput = document.getElementById('txtInput');
     txtResult = document.getElementById('txtResult');
+    results = document.getElementById('results');
 
     document.getElementById('btnPlus')
          .addEventListener('click', plusClick, false);
@@ -28,12 +30,22 @@ function clearEntry() {
     txtInput.value = '0';
 }
 function plusClick() {
+    var child = document.createElement('li');
+    child.innerHTML = "+" + txtInput.value;
+    results.appendChild(child);
+    
     txtResult.value = Number(txtResult.value) + Number(txtInput.value);
+    
     clearEntry();
 }
 
 function minusClick() {
+    var child = document.createElement('li');
+    child.innerHTML = "-" + txtInput.value;
+    results.appendChild(child);
+    
     txtResult.value = Number(txtResult.value) - Number(txtInput.value);
+
     clearEntry();
 }
 

@@ -17,12 +17,17 @@
             <button id="btn1">1</button>
             <button id="btn2">2</button>
             <button id="btn3">3</button><br />
-            <button id="btnClear">C</button>
+            <button id="btnClear" data-clear="clear">C</button>
             <button id="btn0">0</button>
             <button id="btnClearEntry">CE</button><br />
             <button id="btnPlus">+</button>
             <button id="btnMinus">-</button>
         </div>
+        <div>
+            <h1>Input: </h1>
+            <ol id="results"></ol>
+        </div>
+
         <script src="Scripts/CalculatorLibrary.js"></script>
         <script type="text/javascript">
             window.addEventListener('load', initialize, false);
