@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web calculator</title>
+    <link href="Content/default.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+</head>
+    <body>
+        <div id="container">
+            <header>
+                <hgroup id="headerText">
+                    <h1>Conceptos calculator</h1>
+                    <h2>Ad astra ad infinitum</h2>
+                </hgroup>
+            </header>
+
+            <nav>
+                <a href="default.html">Home</a>
+            </nav>
+            <div role="main">
+                <div id="calculator">
+                    <input id="txtResult" type="text" readonly="readonly" /><br />
+                    <input id="txtInput" type="text" /><br />
+                    <button id="btnNumber7">7</button>
+                    <button id="btnNumber8">8</button>
+                    <button id="btnNumber9">9</button><br />
+                    <button id="btnNumber4">4</button>
+                    <button id="btnNumber5">5</button>
+                    <button id="btnNumber6">6</button><br />
+                    <button id="btnNumber1">1</button>
+                    <button id="btnNumber2">2</button>
+                    <button id="btnNumber3">3</button><br />
+                    <button id="btnNumberClear" data-clear="clear">C</button>
+                    <button id="btnNumber0">0</button>
+                    <button id="btnClearEntry">CE</button><br />
+                    <button id="btnPlus">+</button>
+                    <button id="btnMinus">-</button>
+                </div>
+            </div>
+            <aside>
+                <p>Advertisements</p>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2013, Conceptos Consulting, All rights reserved</p>
+            </footer>
+        </div>
+        <script src="Scripts/CalculatorLibrary.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                calculatorNamespace.initialize();
+            });
+        </script>
+    </body>
+</html>
