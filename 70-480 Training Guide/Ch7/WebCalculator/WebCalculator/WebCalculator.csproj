@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Content\default.css" />
     <Content Include="Content\qunit.css" />
+    <Content Include="ContactUs.html" />
     <Content Include="default.html" />
     <Content Include="Images\conceptos-logo.gif" />
     <Content Include="Scripts\CalculatorLibrary.js" />

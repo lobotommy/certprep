@@ -226,3 +226,37 @@ div ~ div {
     text-align: center;
     padding: 10px;
 }
+
+label {
+    clear: both;
+    display: block;
+    float: left;
+    width: 125px;
+    height: 12px;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+form input {
+    width: 200px;
+    border-width: medium;
+    border-color: hsl(255, 100%, 100%);
+    height: 12px;
+    text-align: left;
+    vertical-align: top;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+form button {
+    width: 100px;
+    border-width: medium;
+    border-color: hsl(255, 100%, 100%);
+    vertical-align: top;
+    font-family: Arial;
+    font-size: 12pt;
+    margin-top: 12px;
+    margin-right: 50%;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
