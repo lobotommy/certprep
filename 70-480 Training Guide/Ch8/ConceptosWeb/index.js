@@ -5,10 +5,24 @@ var formidable = require('formidable');
 var dir = express.static(__dirname + '/WebCalculator/WebCalculator');
 app.use(dir);
 
-
-
 app.get('/', function (request, response) {
     response.redirect('default.html');
+});
+
+app.post('/ContactMessage', function (request, response) {
+    var form = new formidable.IncomingForm();
+    form.parse(request, function(err, fields) {
+        var lastName = fields.lastName;
+        var firstName = fields.firstName;
+        var email = fields.email;
+        var message = fields.message;
+
+        response.writeHead('200', { 'Content-Type': 'text/html' });
+        response.write('Thank you, ' + firstName + ' ' + lastName + "<br/>");
+        response.write('We will contact you at ' + email + '</br>');
+        response.end('Your message: ' + message);
+        console.log('Handled request for ' + firstName + ' ' + lastName);   
+    });
 });
 
 var port = 8080;
