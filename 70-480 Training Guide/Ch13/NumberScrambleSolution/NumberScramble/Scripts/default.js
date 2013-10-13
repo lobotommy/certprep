@@ -1,6 +1,6 @@
 ﻿/// <reference path="jquery-1.8.3.js" />
 
-var squareCount = 16
+var squareCount = 16;
 var emptySquare;
 
 $(document).ready(function () {
@@ -12,6 +12,7 @@ $(document).ready(function () {
     $('#gameBoard').on('dragenter', preventDefault);
     $('#gameBoard').on('dragover', preventDefault);
     $('#gameBoard').on('drop', drop);
+    scramble();
 });
 
 function createBoard() {
@@ -33,7 +34,7 @@ function addTiles() {
 }
 
 function dragStarted(e) {
-    var $tile = $(e.target)
+    var $tile = $(e.target);
     $tile.addClass('dragged');
     var sourceLocation = $tile.parent().data('square');
     e.dataTransfer.setData('text', sourceLocation.toString());
@@ -55,6 +56,7 @@ function drop(e) {
         if (emptySquare != destinationLocation) return;
         var sourceLocation = Number(e.dataTransfer.getData('text'));
         moveTile(sourceLocation);
+        checkForWinner();
     }
 }
 
@@ -72,4 +74,38 @@ function swapTileAndEmptySquare(sourceLocation) {
     var $target = $('#square' + emptySquare);
     $draggedItem.appendTo($target);
     emptySquare = sourceLocation;
+}
+
+function scramble() {
+    for (var i = 0; i < 128; i++) {
+        var random = Math.random();
+        var sourceLocation;
+        if (random < 0.5) {
+            var column = emptySquare % 4;
+            if (column == 0 || (random < 0.25 && column != 3)) {
+                sourceLocation = emptySquare + 1;
+            }
+            else {
+                sourceLocation = emptySquare - 1;
+            }
+        }
+        else {
+            var row = Math.floor(emptySquare / 4);
+            if (row == 0 || (random < 0.75 && row != 3)) {
+                sourceLocation = emptySquare + 4;
+            }
+            else {
+                sourceLocation = emptySquare - 4;
+            }
+        }
+        swapTileAndEmptySquare(sourceLocation);
+    }
+}
+
+function checkForWinner() {
+    if (emptySquare != squareCount - 1) return;
+    for (var i = 0; i < emptySquare; i++) {
+        if ($('#tile' + i).parent().attr('id') != 'square' + i) return;
+    }
+    $('#message').html('Winner!');
 }
